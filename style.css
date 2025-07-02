@@ -41,7 +41,9 @@ color: #ef404d;
 .txtblue{
 color: #0f3df1;
 }
-
+.gradient {
+  background: conic-gradient(from 45deg at bottom, #ef404d 0%, #0f3df1 100%);
+}
 
 .service_main .service-box{
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -263,6 +265,10 @@ color: #0f3df1;
   max-width: 100%;
   max-height: 350px;
   border-radius: 10px;
+}
+
+.pdnew{
+  padding-top: 100px;
 }
 
 @media (max-width: 768px) {
@@ -527,3 +533,10 @@ color: #fff;
 padding-bottom: 0!important;
 }
 }
+
+@media only screen and (max-width: 991px) {
+    .hero1.gradient .main-heading {
+        padding-top: 40px;
+    }
+}
+

@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Pigeon Web Solutions </title>
+
+
+     <!--=====CSS=======-->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/fontawesome.css">
+     <link rel="stylesheet" href="assets/css/magnific-popup.css">
+     <link rel="stylesheet" href="assets/css/nice-select.css">
+     <link rel="stylesheet" href="assets/css/slick-slider.css">
+     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+     <link rel="stylesheet" href="assets/css/aos.css">
+     <link rel="stylesheet" href="../../unpkg.com/swiper%4011.2.8/swiper-bundle.min.css">
+     <link rel="stylesheet" href="assets/css/mobile-menu.css">
+     <link rel="stylesheet" href="assets/css/main.css">
+
+
+     <link rel="stylesheet" href="style.css">
+     
+     <!--=====JQUERY=======-->
+     <script src="assets/js/jquery-3-7-1.min.js"></script>
+</head>
+
+<body class="body body5">
+
+<div class="paginacontainer"> 
+  <div class="progress-wrap d-none">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+  </div>
+</div> 
+
+
+<!-- Preloader Start -->
+<div class="preloader">
+  <div class="loading-container">
+    <div class="loading"></div>
+    <div id="loading-icon"><img class="main-load" src="assets/img/logo/logo-icon.png" alt=""></div>
+  </div>
+</div>
+<!-- Preloader End -->
+
+
+<!--=====HEADER START=======-->
+ <header>
+  <div class="header-area header-area1 header-area-all d-none  d-lg-block" id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="header-elements">
+            <div class="site-logo">
+              <a href="index.html">
+               <img src="assets/img/logo/pigeon-web-logo.jpg" alt="Logo">
+              </a>
+            </div>
+
+
+            <div class="main-menu-ex main-menu-ex1">
+             <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">About Us</a></li>
+
+               <li class="dropdown-menu-parrent"><a href="#" class="main1" >Services <i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                 <li  class=""><a href="" class="main">Website Development</a></li>
+                 <li  class=""><a href="" class="main">Search Engine Optimization (SEO)</a></li>
+                 <li  class=""><a href="" class="main">Graphics Design</a></li>
+                 <li  class=""><a href="" class="main">App Develpoment</a></li>
+                </ul>
+              </li>
+
+              <li><a href="">Blogs</a></li>
+              <li><a href="">Contact</a></li>
+                 
+             </ul>
+            </div>
+
+            <div class="header1-buttons">
+                <a class="theme-btn1" href="contact.html">Get In Touch <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="assets/img/icons/sidebar-icon.svg" alt=""></span>              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="sidebar-area1">
+  <div id="sidebar" class="sidebar">
+    <a href="index.html" class="logo sidebarbgwhite">
+        <img src="assets/img/logo/pigeon-web-logo.jpg" alt="Logo">
+    </a>
+    <p class="tagline">Our dedicated team of SEO professionals committed to driving targeted traffic to your website, increasing.</p>
+    
+    <div class="menu-list contact-list">
+      <h3>Contact Us</h3>
+      <div class="contact-box">
+        <div class="icon">
+          <img src="assets/img/icons/footer-contact-icon1.svg" alt="">
+        </div>
+        <div class="pera">
+          <a href="tel:+11234567890">+1 123 456 7890</a>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <div class="icon">
+          <img src="assets/img/icons/footer-contact-icon2.svg" alt="">
+        </div>
+        <div class="pera">
+          <a href="#">421 Allen, Mexico 4233</a>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <div class="icon">
+          <img src="assets/img/icons/footer-contact-icon3.svg" alt="">
+        </div>
+        <div class="pera">
+          <a href="mailto:seomax@gmail.com">seomax@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <div class="icon">
+          <img src="assets/img/icons/footer-contact-icon1.svg" alt="">
+        </div>
+        <div class="pera">
+          <a href="#">Seodigitalmarket.com</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="button">
+      <a class="theme-btn1" href="contact.html">Get In Touch <span><i class="fa-solid fa-arrow-right"></i></span></a>
+    </div>
+    <div class="social-links">
+        <a href="#">&#xf09a;</a>
+        <a href="#">&#xf099;</a>
+        <a href="#">&#xf0e1;</a>
+        <a href="#">&#xf16d;</a>
+    </div>
+  </div>
+  
+  <div id="overlay" class="overlay" style="cursor: crosshair;" onclick="closeNav()">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div class="close-icon">
+      <span></span>
+      <span></span>
+    </div>
+    </a>
+  </div>
+</div>
+<!--=====HEADER END=======-->
+
+
+<!--=====Mobile header start=======-->
+<div class="mobile-header mobile-header-main d-block d-lg-none ">
+  <div class="container-fluid">
+    <div class="col-12">
+      <div class="mobile-header-elements">
+        <div class="mobile-logo">
+          <a href="index.html"><img src="assets/img/logo/pigeon-web-logo.jpg" alt="Logo"></a>
+        </div>
+        <div class="mobile-nav-icon">
+          <i class="fa-duotone fa-bars-staggered"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+<div class="mobile-sidebar d-block d-lg-none">
+  <div class="logo-m">
+    <a href="index.html"><img src="assets/img/logo/pigeon-web-logo.jpg" alt="Logo"></a>
+  </div>
+  <div class="menu-close">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+  <div class="mobile-nav">
+      
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li class="has-dropdown"><a href="#">Services</a> 
+              <ul class="sub-menu">
+                <li><a href="">Website Development</a></li>
+                <li><a href="">Search Engine Optimization (SEO)</a></li>
+                <li><a href="">Graphics Design</a></li>
+                 <li><a href="">App Development</a></li>
+            </ul>
+          </li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+            
+        <div class="mobile-button">
+          <a class="theme-btn1 btn btn--ripple ripple" href="contact.html">Get A Quote <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+  
+        <div class="menu-list contact-list">
+          <h3>Contact Us</h3>
+          <div class="contact-box">
+            <div class="icon">
+              <img src="assets/img/icons/footer-contact-icon1.svg" alt="">
+            </div>
+            <div class="pera">
+              <a href="tel:+11234567890">+1 123 456 7890</a>
+            </div>
+          </div>
+  
+          <div class="contact-box">
+            <div class="icon">
+              <img src="assets/img/icons/footer-contact-icon2.svg" alt="">
+            </div>
+            <div class="pera">
+              <a href="#">421 Allen, Mexico 4233</a>
+            </div>
+          </div>
+  
+          <div class="contact-box">
+            <div class="icon">
+              <img src="assets/img/icons/footer-contact-icon3.svg" alt="">
+            </div>
+            <div class="pera">
+              <a href="mailto:seomax@gmail.com">seomax@gmail.com</a>
+            </div>
+          </div>
+  
+          <div class="contact-box">
+            <div class="icon">
+              <img src="assets/img/icons/footer-contact-icon4.svg" alt="">
+            </div>
+            <div class="pera">
+              <a href="#">Seodigitalmarket.com</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="contact-infos">
+          <h3>Our Location</h3>
+          <ul class="social-icon">
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+  </div>
+</div>
+<!--=====Mobile header end=======-->
+
+<!--=====HERO AREA START=======-->
+<div class="hero1" style="background-image: url(assets/img/hero/hero1-bg.jpg);">
+ <div class="container">
+   <div class="row align-items-center">
+     <div class="col-lg-7">
+       <div class="main-heading hero_heading">
+         <span class="span sm_icon hero_span" data-aos="fade-left" data-aos-duration="800"><img src="assets/img/logo/logo-icon.png" alt="Icon"> <span class="txtred">Experts For </span><span class="txtblue">Online Business Growth</span></span>         
+         <h1 class="">Search Engines With Our Expert SEO Solutions</h1>
+         <p data-aos="fade-right" data-aos-duration="800">
+          Our dedicated team of SEO professionals committed to driving targeted traffic to your website, increasing.
+          Our dedicated team of SEO professionals committed to driving targeted traffic to your website, increasing.
+          Our dedicated team of SEO professionals committed to driving targeted traffic to your website, increasing.
+          Our dedicated team of SEO professionals committed to driving targeted traffic to your website, increasing.
+          Our dedicated team of SEO professionals committed to driving targeted traffic to your website, increasing.         
+         </p>
+         <div class="form-area" data-aos="fade-right" data-aos-duration="1200">
+           <a class="theme-btn1" href="">Free Website Audit<span><i class="fa-solid fa-arrow-right"></i></span></a>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-lg-5 faq-contact contact-page banner_form" >
+        <div class="faq-contact-form" style="background-color: rgba(0, 0, 0, 0.5);">
+            <h4 class="text-white">Request Free Consultation</h4>
+            <form action="#">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="single-input">
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="single-input">
+                            <input type="number" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="single-input">
+                            <input type="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="single-input">
+                            <input type="text" placeholder="Address">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="single-input">
+                            <textarea rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="space30"></div>
+                        <div class="button">
+                            <button class="theme-btn1">Submit Now <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+     </div>
+   </div>
+ </div>
+</div>
+<!--=====HERO AREA END=======-->
+
+
+<!--=====SERVICE AREA START=======-->
+      <div class="service-details-sec1 sp pt-0">
+        <div class="container">
+           <div class="row">
+             <div class="col-lg-12 m-auto text-center">
+               <div class="service2-all-tabs">
+
+                 <div class="tabs-contents">
+                   <div class="tab-content" id="pills-tabContent" data-aos="fade-up" data-aos-duration="800">
+                     <div class="tab-pane fade show active" id="service2" role="tabpanel" aria-labelledby="service2-tab">
+                       <div class="tab-content-boxs">
+                         <div class="row">
+                           <div class="col-lg-5">
+                             <div class="heading1 pt-5 text-left ">
+                                <p class="title" data-aos="fade-left" data-aos-duration="800"> <span class="span sm_icon"><img src="assets/img/logo/logo-icon.png" alt="Icon"> seomax pricing plan</span></p>
+                             </div> 
+                             <div class="heading2 p-0">                           
+                               <h3>Unlock the Power SEO to Grow Your Business</h3>
+                               <div class="space16"></div>
+                               <p>At SEOMAX, we specialize in helping businesses achieve top rankings on search engines through effective SEO marketing of our team experts.</p>
+                               <div class="row">
+                                <div class="col-lg-6">
+                                    <ul class="list">
+                                        <li><span class="check"><i class="fa-solid fa-check"></i></span> Higher Conversion Rates</li>
+                                        <li><span class="check"><i class="fa-solid fa-check"></i></span> Local Market Dominance</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="list">
+                                        <li><span class="check"><i class="fa-solid fa-check"></i></span> Increase Website Traffic</li>
+                                        <li><span class="check"><i class="fa-solid fa-check"></i></span> 24/7 Promotion</li>
+                                    </ul>
+                                </div>
+                               </div>
+                               <div class="space30"></div>
+                               <a class="theme-btn1" href="contact.html">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                             </div>
+                           </div>
+                           <div class="col-lg-7">
+                             <div class="tab-images-all">
+                               <div class="image1">
+                                 <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 288 288">
+                                   <linearGradient id="imagewave" x1="70.711%" x2="0%" y1="70.711%" y2="0%">
+                                     <stop class="stop-color2" offset="0%" stop-opacity="1" />
+                                     <stop class="stop-color1" offset="100%" stop-opacity="1" />
+                                   </linearGradient>
+                                   <path fill="url(#imagewave)" d="">
+                                   
+                                     <animate  repeatCount="indefinite" attributeName="d" dur="10s"
+                                     
+                                     values="M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+                                     c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+                                     c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+                                     c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z;
+                                     
+                                     
+                                     M51,171.3c-6.1-17.7-15.3-17.2-20.7-32c-8-21.9,0.7-54.6,20.7-67.1c19.5-12.3,32.8,5.5,67.7-3.4C145.2,62,145,49.9,173,43.4
+                                     c12-2.8,41.4-9.6,60.2,6.6c19,16.4,16.7,47.5,16,57.7c-1.7,22.8-10.3,25.5-9.4,46.4c1,22.5,11.2,25.8,9.1,42.6
+                                     c-2.2,17.6-16.3,37.5-33.5,40.8c-22,4.1-29.4-22.4-54.9-22.6c-31-0.2-40.8,39-68.3,35.7c-17.3-2-32.2-19.8-37.3-34.8
+                                     C48.9,198.6,57.8,191,51,171.3z;
+                                     
+                                     M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+                                     c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+                                     c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+                                     c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z  "/>
+                                     </path>
+                                   </svg>
+                               </div>
+                               <div class="image2">
+                                 <img src="assets/img/service/service2-tab1.png" alt="">
+                               </div>
+                               <div class="image3 animate2">
+                                 <img src="assets/img/service/service2-tab2.png" alt="">
+                               </div>
+                               <div class="image4 animate1">
+                                 <img src="assets/img/service/service2-tab3.png" alt="">
+                               </div>
+                               <div class="image5">
+                                 <img src="assets/img/service/service2-tab4.png" alt="">
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+
+                   </div>  
+                 </div>
+                 
+               </div>
+             </div>
+           </div>
+        </div>
+      </div>
+<!--=====SERVICE AREA END=======-->
+
+
+<!--===== TESTIMONIAL AREA START =======-->
+<div class="tes4 sp py-5 home_testi" style="background-image: url(assets/img/bg/tes3-bg.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 m-auto text-center">
+            <div class="heading1">
+                <p class="title"> <span class="span sm_icon"><img src="assets/img/logo/logo-icon.png" alt="Icon"> seomax pricing plan</span></p>
+                <h2 class="text-anime-style-3">SEO Marketing Pricing Plans</h2>
+            </div>
+        </div>
+      </div>
+      <div class="space0"></div>
+      <div class="row align-items-center">
+
+        <div class="col-lg-7">
+
+          <div class="testimonial7-all">
+            <div class="tes7-slider">
+
+              <div class="swiper-slide">
+                <div class="testimonials-box-2">
+                  <div class="star">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="text">
+                    "We've integrated the POS software with our online store, and it's made managing both so much easier. The synchronization between our physical and online inventory is seamless, & the centralized data helps”
+                  </p>
+                  <div class="bottom">
+                    <div class="info">
+                      <div class="image">
+                        <img src="assets/img/testimonial/tes4-smoll.png" alt="">
+                      </div>
+                      <div class="content">
+                        <h6 class="name"><a href="#">Thomas Muller</a></h6>
+                        <p class="position">Amazon Market</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonials-box-2">
+                  <div class="star">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="text">
+                    "We've integrated the POS software with our online store, and it's made managing both so much easier. The synchronization between our physical and online inventory is seamless, & the centralized data helps”
+                  </p>
+                  <div class="bottom">
+                    <div class="info">
+                      <div class="image">
+                        <img src="assets/img/testimonial/tes4-smoll.png" alt="">
+                      </div>
+                      <div class="content">
+                        <h6 class="name"><a href="#">Thomas Muller</a></h6>
+                        <p class="position">Amazon Market</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="pagination-buttons">
+              <div class="testimonial7-prev-arrow">
+                <button><i class="fa-solid fa-angle-up"></i></button>
+              </div>
+              <div class="testimonial7-next-arrow">
+                <button><i class="fa-solid fa-angle-down"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-5 btm_img">
+            <div class="iamge-slider">
+                <div class="image">
+                    <img src="assets/img/testimonial/tes4-img.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="assets/img/testimonial/tes4-img.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!--===== TESTIMONIAL AREA END =======-->
+
+
+<!--===== FAQ AREA START =======-->
+  <div class="faq4 sp">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 m-auto text-center">
+          <div class="heading1">
+            <p class="title"> <span class="span sm_icon"><img src="assets/img/logo/logo-icon.png" alt="Icon"> FAQ Question</span></p>
+            <h2 class="text-anime-style-3">Frequently Asked Question</h2>
+          </div>
+
+          <div class="space40"></div>
+
+          <div class="accordion accordion1" id="accordionExample">
+            <div class="accordion-item active"> 
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What is SEO and why is it important for my business?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Digital marketing refers to the use of online platforms and strategies to promote brands, products, or services. It includes SEO, social media marketing, content marketing, email marketing, an paid.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How long does it take to see results from SEO?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Digital marketing refers to the use of online platforms and strategies to promote brands, products, or services. It includes SEO, social media marketing, content marketing, email marketing, an paid.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What services do offer SEO marketing company?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Digital marketing refers to the use of online platforms and strategies to promote brands, products, or services. It includes SEO, social media marketing, content marketing, email marketing, an paid.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  How do you approach backlink building?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Digital marketing refers to the use of online platforms and strategies to promote brands, products, or services. It includes SEO, social media marketing, content marketing, email marketing, an paid.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  What is local SEO how can it benefit my business?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Digital marketing refers to the use of online platforms and strategies to promote brands, products, or services. It includes SEO, social media marketing, content marketing, email marketing, an paid.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!--===== FAQ AREA END =======-->
+
+
+<div class="cta_home_main mt-4" style="background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('assets/img/bg/contact1-bg.jpg'); background-size: cover;">
+  <div class="container">
+  <section class="cta-section">
+    <div class="cta-text">
+      <h2><span>Let’s Build</span> the Future of<br>Digital Growth Together</h2>
+      <p>Let our team provide you with a no-cost, no-commitment technical proposal for your next enterprise custom project.</p>
+      <div class="mt-4" data-aos="fade-left" data-aos-duration="700">
+        <a class="theme-btn1" href="service1.html">Let's Discuss Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+      </div>
+    </div>
+    <div class="cta-image">
+      <img src="assets/img/others/young_woman.png" alt="Image" />
+    </div>
+  </section>
+  </div>
+</div>
+
+
+<!--=====Industries AREA START=======-->
+<div class="work1 sp py-5 mb-4">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6 m-auto text-center">
+          <div class="heading1">
+            <p class="title sm_icon" data-aos="fade-left" data-aos-duration="800"> <span class="span sm_icon"><img src="assets/img/logo/logo-icon.png" alt="Icon"> Industries Covered</span></p>
+            <h2 class="text-anime-style-3">Industries & Sectors We Serve</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="space30"></div>
+      <div class=" insudtry_row">
+
+        <div class="industry_item bgi1">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/ecommerce-and-retail.svg" alt="Ecommerce and Retail">
+               </div>
+               <h5>eCommerce & Retail</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi2">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/travel-and-hospitality.svg" alt="Travel & Hospitality">
+               </div>
+               <h5>Travel & Hospitality</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi3">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/real-estate.svg" alt="Real Estate">
+               </div>
+               <h5>Real Estate</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi4">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/food-and-beverage.svg" alt="Food & Beverage">
+               </div>
+               <h5>Food & Beverage</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi2">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/healthcare-and-fitness.svg" alt="Healthcare & Fitness">
+               </div>
+               <h5>Healthcare & Fitness</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi5">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/logistics-and-transport.svg" alt="Logistics & Transport">
+               </div>
+               <h5>Logistics & Transport</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi4">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/banking-and-finance.svg" alt="Banking & Finance">
+               </div>
+               <h5>Banking & Finance</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi2">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/news-and-media.svg" alt="News & Media">
+               </div>
+               <h5>News & Media</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi3">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/events-and-blog.svg" alt="Events & Blog">
+               </div>
+               <h5>Events & Blog</h5>
+           </div>
+        </div>
+
+        <div class="industry_item bgi5">
+           <div class="item_wrapper">
+               <div class="industry_image">
+                   <img src="assets/img/industries/eductaional-instutition.svg" alt="Education & eLearning">
+               </div>
+               <h5>Education & eLearning</h5>
+           </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+<!--=====Industries AREA END=======-->
+
+
+<!--=====BLOG AREA START=======-->
+   <div class="blog1 sp py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 m-auto text-center">
+          <div class="heading1">
+            <p class="title" data-aos="fade-left" data-aos-duration="800"> <span class="span sm_icon"><img src="assets/img/logo/logo-icon.png" alt="Icon"> our blog</span></p>
+            <h2 class="text-anime-style-3">Our Latest Articles & Blog</h2>
+           </div>
+        </div>
+      </div>
+      <div class="space30"></div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="700">
+          <div class="blog-box">
+            <div class="image">
+              <img src="assets/img/blog/blog1-img1.jpg" alt="">
+            </div>
+            <div class="heading1">
+              <div class="author-area">
+                <a href="#" class="date"><img src="assets/img/icons/author.svg" alt=""> Alex Roy</a>
+                <a href="#" class="date"><img src="assets/img/icons/date.svg" alt=""> 8 December 2024</a>
+              </div>
+              <h5><a href="blog-details.html">How to Create a Winning SEO & Digital Marketing Strategy</a></h5>
+              <div class="space20"></div>
+              <a class="theme-btn1" href="blog-details.html">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="900">
+          <div class="blog-box">
+            <div class="image">
+              <img src="assets/img/blog/blog1-img2.jpg" alt="">
+            </div>
+            <div class="heading1">
+              <div class="author-area">
+                <a href="#" class="date"><img src="assets/img/icons/author.svg" alt=""> Alex Hales</a>
+                <a href="#" class="date"><img src="assets/img/icons/date.svg" alt=""> 8 December 2024</a>
+              </div>
+              <h5><a href="blog-details.html">Business with Cutting-Edge SEO & Digital Marketing Strategies</a></h5>
+              <div class="space20"></div>
+              <a class="theme-btn1" href="blog-details.html">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1100">
+          <div class="blog-box">
+            <div class="image">
+              <img src="assets/img/blog/blog1-img3.jpg" alt="">
+            </div>
+            <div class="heading1">
+              <div class="author-area">
+                <a href="#" class="date"><img src="assets/img/icons/author.svg" alt=""> Alex Carey</a>
+                <a href="#" class="date"><img src="assets/img/icons/date.svg" alt=""> 8 December 2024</a>
+              </div>
+              <h5><a href="blog-details.html">Key Benefits of SEO and Digital Marketing for Your Business</a></h5>
+              <div class="space20"></div>
+              <a class="theme-btn1" href="blog-details.html">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <img src="assets/img/shapes/blog1-shape.png" alt="" class="shape1 animate1">
+   </div>
+<!--=====BLOG AREA END=======-->
+
+
+<!--=====FOOTER AREA START=======-->
+   <div class="footer1" style="background: url('assets/img/others/price-bg-2.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="heading1">
+            <a href="index.html" class="logo footer_logo"><img src="assets/img/logo/pigeon-web-logo.jpg" alt="Logo"></a>
+            <p>At SEOMAX, we are committed helping your business achieve its online goals through expert SEO digital marketing.</p>
+          </div>
+        </div>
+
+        <div class="col-lg col-6">
+          <div class="menu-list">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Our Portfolio</a></li>
+              <li><a href="#">Team Member</a></li>
+              <li><a href="#">Pricing Plan</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Partnership</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg col-6">
+          <div class="menu-list">
+            <h3>Our Services</h3>
+            <ul>
+              <li><a href="#">SEO Marketing</a></li>
+              <li><a href="#">Content Marketing</a></li>
+              <li><a href="#">Digital MArketing</a></li>
+              <li><a href="#">Email Marketing</a></li>
+              <li><a href="#">Marketing Strategy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="menu-list contact-list">
+            <h3>Contact Us</h3>
+            <div class="contact-box">
+              <div class="icon">
+                <img src="assets/img/icons/footer-contact-icon1.svg" alt="">
+              </div>
+              <div class="pera">
+                <a href="tel:+11234567890">+1 123 456 7890</a>
+              </div>
+            </div>
+
+            <div class="contact-box">
+              <div class="icon">
+                <img src="assets/img/icons/footer-contact-icon2.svg" alt="">
+              </div>
+              <div class="pera">
+                <a href="#">421 Allen, Mexico 4233</a>
+              </div>
+            </div>
+
+            <div class="contact-box">
+              <div class="icon">
+                <img src="assets/img/icons/footer-contact-icon3.svg" alt="">
+              </div>
+              <div class="pera">
+                <a href="mailto:seomax@gmail.com">seomax@gmail.com</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="space40"></div>
+      <div class="footer-border"></div>
+      <div class="row align-items-center footer_bottom_row">
+        <div class="col-lg-6">
+          <div class="coppyright">
+            <p>Copyright 2025 | All Right Reserved</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <ul class="footer-social">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-basketball"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--=====FOOTER AREA END=======-->
+
+
+  <!--=== js === -->
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/fontawesome.js"></script>
+   <script src="assets/js/mobile-menu.js"></script>
+   <script src="assets/js/jquery.magnific-popup.js"></script>
+   <script src="assets/js/owl.carousel.min.js"></script>
+   <script src="assets/js/jquery.countup.js"></script>
+   <script src="assets/js/slick-slider.js"></script>
+   <script src="assets/js/circle-progress.js"></script>
+   <script src="assets/js/jquery.nice-select.js"></script>
+   <script src="assets/js/gsap.min.js"></script>
+   <script src="assets/js/ScrollTrigger.min.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/Splitetext.js"></script>
+   <script src="assets/js/text-animation.js"></script>
+   <script src="assets/js/aos.js"></script>
+   <script src="assets/js/SmoothScroll.js"></script>
+   <script src="assets/js/jaquery-ripples.js"></script>
+   <script src="assets/js/jquery.lineProgressbar.js"></script>
+   <script src="assets/js/animation.js"></script>
+   <script src="assets/js/main.js"></script>
+
+</body>
+</html>
