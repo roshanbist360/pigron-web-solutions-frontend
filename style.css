@@ -325,6 +325,36 @@ color: #fff;
   border-radius: 6px;
 }
 
+.service_type .blog-box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.service_type .blog-box .heading1 {
+    padding: 5px 25px 25px 25px;
+}
+.service_type .blog-box .heading1 p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.service_type .blog-box .image img {
+    border-radius: 0px;
+}
+.service_type .blog-box:hover img{
+    border-radius: 0px!important;
+}
+.reverse_row{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.image_new img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 70px;
+}
+
+.content_pd{
+  padding-top: 60px;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
